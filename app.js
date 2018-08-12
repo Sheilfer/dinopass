@@ -24,3 +24,7 @@ require('./routes')(app);
 
 app.listen(8080);
 console.log('Listening on port 8080');
+
+
+
+alert("Welcome to Dinopass");
