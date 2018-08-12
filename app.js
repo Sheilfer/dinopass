@@ -26,5 +26,4 @@ app.listen(8080);
 console.log('Listening on port 8080');
 
 
-
-alert("Welcome to Dinopass");
+console.log("visit codemoji at www.codemoji.com");
