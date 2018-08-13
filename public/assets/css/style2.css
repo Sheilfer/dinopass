@@ -6,6 +6,8 @@
 
 body {
 	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
 :focus {
@@ -21,11 +23,24 @@ body {
 * Header
 *
 ****************************************************************************/
+#codemoji-banner{
+	background-color: #2371C0; color: white;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+	text-align: center;
+	font-size: 20px;
+	z-index: 1000!important;
+	position: fixed;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
 
 #header {
 	background:transparent url(/assets/images/bg-clouds.jpg) repeat-x center top;
 	height:170px;
-	padding-top:10px;
+	position: relative;
+	padding-top: 85px;
+	
 }
 
 #header-content {
